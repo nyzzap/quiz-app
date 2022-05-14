@@ -27,15 +27,17 @@
 | Route | ACTION | Description|
 | ------ | ------ |------ |
 | /create-quiz | POST | Create new Quiz|
+| /update-quiz | POST | Modify Quiz, && Questions|
+| /delete-quiz | POST | Delete Quiz, && Questions|
 | /global-list | GET | Get all quiz head|
-|/questions | GET | get all questions of quiz id param|
+| /questions | GET | get all questions of quiz id param|
 
 ## Routes:  /answers
 | Route | ACTION | Description|
 | ------ | ------ |------ |
 | /create-answer | POST | Create new answer|
 | /list-player | GET | Get all answers by player (userId)|
-|/list-quiz | GET | get all answers of quiz (id)|
-|/list-author | GET | get all answers of quiz (authorId)|
+| /list-quiz | GET | get all answers of quiz (id)|
+| /list-author | GET | get all answers of quiz (authorId)|
 
 
